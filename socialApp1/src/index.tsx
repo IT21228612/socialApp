@@ -28,7 +28,7 @@ export function App() {
 			<Header />
 			<main>
 				<Router>
-					<ProtectedRoute path="/" component={Home} />
+					<Route path="/" component={Home} />
 					<Route path='/login' component={login} />
 					<Route path='/registration' component={registration} />
 					<Route path='/forgetpassword' component={forgetpassword} />

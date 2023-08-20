@@ -11,7 +11,7 @@ export function Home() {
 			<section>
 				<Resource
 					title="Learn Preact"
-					description="If you're new to Preact, try the interactive tutorial to learn important concepts"
+					description="if you're new to Preact, try the interactive tutorial to learn important concepts"
 					href="https://preactjs.com/tutorial"
 				/>
 				<Resource

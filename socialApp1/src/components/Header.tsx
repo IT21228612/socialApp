@@ -10,7 +10,7 @@ export function Header() {
 					Home
 				</a>
 				<a href="/404" class={url == '/404' && 'active'}>
-					404
+					vinura
 				</a>
 			</nav>
 		</header>
