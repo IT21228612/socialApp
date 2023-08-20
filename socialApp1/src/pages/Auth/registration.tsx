@@ -2,6 +2,7 @@ import preactLogo from '../../assets/preact.svg';
 
 export function registration() {
 	return (
+<<<<<<< Updated upstream
 		<div class="home">
 			<a href="https://preactjs.com" target="_blank">
 				<img src={preactLogo} alt="Preact logo" height="160" width="160" />
@@ -25,6 +26,9 @@ export function registration() {
 				/>
 			</section>
 		</div>
+=======
+		<div>jj</div>
+>>>>>>> Stashed changes
 	);
 }
 
