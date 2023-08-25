@@ -1,17 +1,21 @@
 body{
     margin-top:20px;
-    background:rgb(245, 238, 238);
+    margin-left: -100px;
+    
 }
 .container {
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 50px;
     padding-right: 15px;
     padding-left: 15px;
     width: 100%;
+    padding-top: 100px;;
+    padding-bottom: 50px;
+    
 }
 
 #card1{
-	background-color: #193caf;
+	background-color: #6d7283;
 }
 
 @media (min-width: 576px) {

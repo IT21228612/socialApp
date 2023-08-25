@@ -11,6 +11,7 @@ import { forgetpassword } from './pages/Auth/forgetpassword.js';
 import { profile } from './pages/Profile/profile.js';
 import { useEffect } from 'preact/hooks';
 import { route } from 'preact-router';
+import { Footer } from './components/footer.js';
 
 export function App() {
 	function ProtectedRoute(props) {
@@ -36,6 +37,7 @@ export function App() {
 					<Route default component={NotFound} />
 				</Router>
 			</main>
+			<Footer />
 		</LocationProvider>
 	);
 }

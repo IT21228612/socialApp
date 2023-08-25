@@ -2,12 +2,13 @@ import React from 'react';
 
 import './login.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 export function login() {
 
 	return(
 		
-
+<div id="login-bg">
 <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-8">
@@ -46,6 +47,7 @@ export function login() {
         </div>
       </div>
     </div>
+  </div>
   </div>
 		  );
 		}

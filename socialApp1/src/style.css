@@ -17,16 +17,27 @@ body {
 	margin: 0;
 }
 
+.active{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 #app {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
 }
+footer{
+	background-color: #464952;
+	margin-top: 200px;
+}
 
 header {
+	margin-top: -20px;
 	display: flex;
 	justify-content: flex-end;
-	background-color: #1d3481;
+	background-color: #8a8d96;
+	
 }
 
 header nav {
@@ -67,4 +78,11 @@ main {
 		color: #ccc;
 		background-color: #1a1a1a;
 	}
+}
+#home-header{
+
+	width: 95vw;
+}
+nav{
+	background-color: transparent;
 }
